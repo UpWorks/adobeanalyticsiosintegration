@@ -16,6 +16,8 @@
 		7E46B2F11BC2FBD10057F4EA /* AdobeMobileLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E46B2ED1BC2FBD10057F4EA /* AdobeMobileLibrary.a */; settings = {ASSET_TAGS = (); }; };
 		7E46B2F21BC2FBD20057F4EA /* AdobeMobileLibrary_Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E46B2EE1BC2FBD10057F4EA /* AdobeMobileLibrary_Extension.a */; settings = {ASSET_TAGS = (); }; };
 		7E46B2F31BC2FBD20057F4EA /* AdobeMobileLibrary_Watch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E46B2EF1BC2FBD10057F4EA /* AdobeMobileLibrary_Watch.a */; settings = {ASSET_TAGS = (); }; };
+		7E46B2F51BC319B90057F4EA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E46B2F41BC319B90057F4EA /* SystemConfiguration.framework */; };
+		7E46B2F71BC31B7F0057F4EA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E46B2F61BC31B7F0057F4EA /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		7E46B2ED1BC2FBD10057F4EA /* AdobeMobileLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AdobeMobileLibrary.a; sourceTree = "<group>"; };
 		7E46B2EE1BC2FBD10057F4EA /* AdobeMobileLibrary_Extension.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AdobeMobileLibrary_Extension.a; sourceTree = "<group>"; };
 		7E46B2EF1BC2FBD10057F4EA /* AdobeMobileLibrary_Watch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AdobeMobileLibrary_Watch.a; sourceTree = "<group>"; };
+		7E46B2F41BC319B90057F4EA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7E46B2F61BC31B7F0057F4EA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E46B2F71BC31B7F0057F4EA /* libsqlite3.dylib in Frameworks */,
+				7E46B2F51BC319B90057F4EA /* SystemConfiguration.framework in Frameworks */,
 				7E46B2F11BC2FBD10057F4EA /* AdobeMobileLibrary.a in Frameworks */,
 				7E46B2F31BC2FBD20057F4EA /* AdobeMobileLibrary_Watch.a in Frameworks */,
 				7E46B2F21BC2FBD20057F4EA /* AdobeMobileLibrary_Extension.a in Frameworks */,
@@ -80,6 +86,8 @@
 		7E46B2E91BC2F97A0057F4EA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7E46B2F61BC31B7F0057F4EA /* libsqlite3.dylib */,
+				7E46B2F41BC319B90057F4EA /* SystemConfiguration.framework */,
 				7E46B2EA1BC2FBD10057F4EA /* AdobeMobileLibrary */,
 			);
 			name = Frameworks;

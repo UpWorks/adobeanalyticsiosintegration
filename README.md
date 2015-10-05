@@ -14,4 +14,10 @@ Step 1. Within you Xcode project create a new group titled Frameworks. Note if y
 
 Step 2. Open finder and locate the folder, AdobeMobileLibrary folder. This is located in the unzipped package you downloaded from the Prerequisite step above. Drag this folder into the Frameworks folder, or your own similarly named folder. In doing so you will be presented with a dialog to Choose options for adding these files.  For the Destination option, tick the Copy items if needed box.  For the Added folders option, Select Create groups. Add to all targets necessary, project and testing. Click the finish button.
 
-Steps 3. Delete the AdobeMobileLibrary_Extension.a and AdobeMobileLibrary_Watch.a files. Do not perform this step if, you are building an Extension app or Watch app.
+Steps 3. Delete the AdobeMobileLibrary_Extension.a and AdobeMobileLibrary_Watch.a files. *Do not perform this step if, you are building an Extension or Watch application.
+
+Step 4. Add the SystemConfiguration.framework to the project 
+Add the SystemConfiguration.framework to the project by clicking on your project file in the Project Navigator, followed bu clicking on the General tab and selecting the project target. Next, click on the Linked Frameworks and Libraries plus, +, button.   This will present a dialog of available libraries and frameworks. In the Search box begin typing SystemC and select the SystemConfiguration.framework and click the Add button at bottom right of the dialog.
+
+Step 5. Adding libsqlite3.dylib
+Add the libsqlite3.dylib by clicking on the same Linked Frameworks and Libraries plus, +, button.  This time click the Add Other button on the bottom left of the dialog. This will bring up a file dialog. Press CMD + Shift + G. This will present the Go to the folder dialog, here enter /usr/lib/. This will present a new list of files, select the libsqlite3.dylib and click open in the lower right. This will add the lib to your Frameworks group.
