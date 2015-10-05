@@ -35,6 +35,7 @@
 		7E46B2EF1BC2FBD10057F4EA /* AdobeMobileLibrary_Watch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AdobeMobileLibrary_Watch.a; sourceTree = "<group>"; };
 		7E46B2F41BC319B90057F4EA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		7E46B2F61BC31B7F0057F4EA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		7E46B2F81BC332A50057F4EA /* ADBMobile-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ADBMobile-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 				7E46B2DE1BC2E3080057F4EA /* Assets.xcassets */,
 				7E46B2E01BC2E3080057F4EA /* LaunchScreen.storyboard */,
 				7E46B2E31BC2E3080057F4EA /* Info.plist */,
+				7E46B2F81BC332A50057F4EA /* ADBMobile-Bridging-Header.h */,
 			);
 			path = integrateadobeanlaytics;
 			sourceTree = "<group>";
