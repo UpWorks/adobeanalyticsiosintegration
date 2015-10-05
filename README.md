@@ -9,3 +9,5 @@ Step 1. Complete the two steps:
 + Set up your App in Adobe Mobile Services
 + Download the SDK and Testing Tools
 Documentation located here: https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html
+
+Step 2. 

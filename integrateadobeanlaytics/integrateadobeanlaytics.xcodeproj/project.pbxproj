@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E46B2D81BC2E3080057F4EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E46B2D71BC2E3080057F4EA /* AppDelegate.swift */; };
+		7E46B2DA1BC2E3080057F4EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E46B2D91BC2E3080057F4EA /* ViewController.swift */; };
+		7E46B2DD1BC2E3080057F4EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E46B2DB1BC2E3080057F4EA /* Main.storyboard */; };
+		7E46B2DF1BC2E3080057F4EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E46B2DE1BC2E3080057F4EA /* Assets.xcassets */; };
+		7E46B2E21BC2E3080057F4EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E46B2E01BC2E3080057F4EA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E46B2D41BC2E3080057F4EA /* integrateadobeanlaytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = integrateadobeanlaytics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E46B2D71BC2E3080057F4EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E46B2D91BC2E3080057F4EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E46B2DC1BC2E3080057F4EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E46B2DE1BC2E3080057F4EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E46B2E11BC2E3080057F4EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E46B2E31BC2E3080057F4EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E46B2D11BC2E3080057F4EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E46B2CB1BC2E3080057F4EA = {
+			isa = PBXGroup;
+			children = (
+				7E46B2D61BC2E3080057F4EA /* integrateadobeanlaytics */,
+				7E46B2D51BC2E3080057F4EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E46B2D51BC2E3080057F4EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E46B2D41BC2E3080057F4EA /* integrateadobeanlaytics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E46B2D61BC2E3080057F4EA /* integrateadobeanlaytics */ = {
+			isa = PBXGroup;
+			children = (
+				7E46B2D71BC2E3080057F4EA /* AppDelegate.swift */,
+				7E46B2D91BC2E3080057F4EA /* ViewController.swift */,
+				7E46B2DB1BC2E3080057F4EA /* Main.storyboard */,
+				7E46B2DE1BC2E3080057F4EA /* Assets.xcassets */,
+				7E46B2E01BC2E3080057F4EA /* LaunchScreen.storyboard */,
+				7E46B2E31BC2E3080057F4EA /* Info.plist */,
+			);
+			path = integrateadobeanlaytics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E46B2D31BC2E3080057F4EA /* integrateadobeanlaytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E46B2E61BC2E3080057F4EA /* Build configuration list for PBXNativeTarget "integrateadobeanlaytics" */;
+			buildPhases = (
+				7E46B2D01BC2E3080057F4EA /* Sources */,
+				7E46B2D11BC2E3080057F4EA /* Frameworks */,
+				7E46B2D21BC2E3080057F4EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = integrateadobeanlaytics;
+			productName = integrateadobeanlaytics;
+			productReference = 7E46B2D41BC2E3080057F4EA /* integrateadobeanlaytics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E46B2CC1BC2E3080057F4EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Michael Updegraff";
+				TargetAttributes = {
+					7E46B2D31BC2E3080057F4EA = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 7E46B2CF1BC2E3080057F4EA /* Build configuration list for PBXProject "integrateadobeanlaytics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E46B2CB1BC2E3080057F4EA;
+			productRefGroup = 7E46B2D51BC2E3080057F4EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E46B2D31BC2E3080057F4EA /* integrateadobeanlaytics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E46B2D21BC2E3080057F4EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E46B2E21BC2E3080057F4EA /* LaunchScreen.storyboard in Resources */,
+				7E46B2DF1BC2E3080057F4EA /* Assets.xcassets in Resources */,
+				7E46B2DD1BC2E3080057F4EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E46B2D01BC2E3080057F4EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E46B2DA1BC2E3080057F4EA /* ViewController.swift in Sources */,
+				7E46B2D81BC2E3080057F4EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E46B2DB1BC2E3080057F4EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E46B2DC1BC2E3080057F4EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E46B2E01BC2E3080057F4EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E46B2E11BC2E3080057F4EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E46B2E41BC2E3080057F4EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E46B2E51BC2E3080057F4EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E46B2E71BC2E3080057F4EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = integrateadobeanlaytics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mru.integrateadobeanlaytics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E46B2E81BC2E3080057F4EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = integrateadobeanlaytics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mru.integrateadobeanlaytics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E46B2CF1BC2E3080057F4EA /* Build configuration list for PBXProject "integrateadobeanlaytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E46B2E41BC2E3080057F4EA /* Debug */,
+				7E46B2E51BC2E3080057F4EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E46B2E61BC2E3080057F4EA /* Build configuration list for PBXNativeTarget "integrateadobeanlaytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E46B2E71BC2E3080057F4EA /* Debug */,
+				7E46B2E81BC2E3080057F4EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E46B2CC1BC2E3080057F4EA /* Project object */;
+}
