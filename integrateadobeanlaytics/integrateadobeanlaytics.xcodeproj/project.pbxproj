@@ -12,6 +12,10 @@
 		7E46B2DD1BC2E3080057F4EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E46B2DB1BC2E3080057F4EA /* Main.storyboard */; };
 		7E46B2DF1BC2E3080057F4EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E46B2DE1BC2E3080057F4EA /* Assets.xcassets */; };
 		7E46B2E21BC2E3080057F4EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E46B2E01BC2E3080057F4EA /* LaunchScreen.storyboard */; };
+		7E46B2F01BC2FBD10057F4EA /* ADBMobileConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E46B2EC1BC2FBD10057F4EA /* ADBMobileConfig.json */; settings = {ASSET_TAGS = (); }; };
+		7E46B2F11BC2FBD10057F4EA /* AdobeMobileLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E46B2ED1BC2FBD10057F4EA /* AdobeMobileLibrary.a */; settings = {ASSET_TAGS = (); }; };
+		7E46B2F21BC2FBD20057F4EA /* AdobeMobileLibrary_Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E46B2EE1BC2FBD10057F4EA /* AdobeMobileLibrary_Extension.a */; settings = {ASSET_TAGS = (); }; };
+		7E46B2F31BC2FBD20057F4EA /* AdobeMobileLibrary_Watch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E46B2EF1BC2FBD10057F4EA /* AdobeMobileLibrary_Watch.a */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,11 @@
 		7E46B2DE1BC2E3080057F4EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E46B2E11BC2E3080057F4EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E46B2E31BC2E3080057F4EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E46B2EB1BC2FBD10057F4EA /* ADBMobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBMobile.h; sourceTree = "<group>"; };
+		7E46B2EC1BC2FBD10057F4EA /* ADBMobileConfig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ADBMobileConfig.json; sourceTree = "<group>"; };
+		7E46B2ED1BC2FBD10057F4EA /* AdobeMobileLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AdobeMobileLibrary.a; sourceTree = "<group>"; };
+		7E46B2EE1BC2FBD10057F4EA /* AdobeMobileLibrary_Extension.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AdobeMobileLibrary_Extension.a; sourceTree = "<group>"; };
+		7E46B2EF1BC2FBD10057F4EA /* AdobeMobileLibrary_Watch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AdobeMobileLibrary_Watch.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +38,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E46B2F11BC2FBD10057F4EA /* AdobeMobileLibrary.a in Frameworks */,
+				7E46B2F31BC2FBD20057F4EA /* AdobeMobileLibrary_Watch.a in Frameworks */,
+				7E46B2F21BC2FBD20057F4EA /* AdobeMobileLibrary_Extension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				7E46B2D61BC2E3080057F4EA /* integrateadobeanlaytics */,
+				7E46B2E91BC2F97A0057F4EA /* Frameworks */,
 				7E46B2D51BC2E3080057F4EA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +75,26 @@
 				7E46B2E31BC2E3080057F4EA /* Info.plist */,
 			);
 			path = integrateadobeanlaytics;
+			sourceTree = "<group>";
+		};
+		7E46B2E91BC2F97A0057F4EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E46B2EA1BC2FBD10057F4EA /* AdobeMobileLibrary */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E46B2EA1BC2FBD10057F4EA /* AdobeMobileLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				7E46B2EB1BC2FBD10057F4EA /* ADBMobile.h */,
+				7E46B2EC1BC2FBD10057F4EA /* ADBMobileConfig.json */,
+				7E46B2ED1BC2FBD10057F4EA /* AdobeMobileLibrary.a */,
+				7E46B2EE1BC2FBD10057F4EA /* AdobeMobileLibrary_Extension.a */,
+				7E46B2EF1BC2FBD10057F4EA /* AdobeMobileLibrary_Watch.a */,
+			);
+			path = AdobeMobileLibrary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E46B2E21BC2E3080057F4EA /* LaunchScreen.storyboard in Resources */,
+				7E46B2F01BC2FBD10057F4EA /* ADBMobileConfig.json in Resources */,
 				7E46B2DF1BC2E3080057F4EA /* Assets.xcassets in Resources */,
 				7E46B2DD1BC2E3080057F4EA /* Main.storyboard in Resources */,
 			);
@@ -248,6 +282,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = integrateadobeanlaytics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdobeMobileLibrary",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.mru.integrateadobeanlaytics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -259,6 +297,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = integrateadobeanlaytics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdobeMobileLibrary",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.mru.integrateadobeanlaytics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
