@@ -1,4 +1,4 @@
-# Adobe Analytics iOS Integration
+# Adobe Analytics iOS Integration into Swift 2 Project
 Adobe Analytics Integration into iOS Swift Applications
 
 Currently, official documentation from Adobe for integrating the Objective-C Adobe Mobile Analytics SDK into a iOS Swift project does not exist.
@@ -7,8 +7,8 @@ Below is my experience in doing so and invite others to comment or provide pull 
 
 Prerequisite Complete the two steps:
 
-1 Set up your App in Adobe Mobile Services
-2 Download the SDK and Testing Tools
+1. Set up your App in Adobe Mobile Services
+2. Download the SDK and Testing Tools
 
 Documentation located here: https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html
 
