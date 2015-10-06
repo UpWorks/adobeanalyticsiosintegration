@@ -18,7 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     ADBMobile.setDebugLogging(true)
     
-    ADBMobile.collectLifecycleData()
     return true
   }
 
