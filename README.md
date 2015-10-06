@@ -28,6 +28,8 @@ Step 4. Add the SystemConfiguration.framework to the project
 
 Add the `SystemConfiguration.framework` to the project by clicking on your project file in the Project Navigator, followed bu clicking on the General tab and selecting the project target. Next, click on the Linked Frameworks and Libraries plus, +, button.   This will present a dialog of available libraries and frameworks. In the Search box begin typing SystemC and select the SystemConfiguration.framework and click the Add button at bottom right of the dialog.
 
+![alt text](https://dl.dropboxusercontent.com/u/2624610/tutorial-imgs/linking-framework-1.jpg "Screen Shot 1")
+
 Step 5. Adding `libsqlite3.dylib`
 
 Add the `libsqlite3.dylib` by clicking on the same Linked Frameworks and Libraries plus, +, button.  This time click the Add Other button on the bottom left of the dialog. This will bring up a file dialog. Press CMD + Shift + G. This will present the Go to the folder dialog, here enter `/usr/lib/`. This will present a new list of files, select the `libsqlite3.dylib` and click open in the lower right. This will add the lib to your Frameworks group.
