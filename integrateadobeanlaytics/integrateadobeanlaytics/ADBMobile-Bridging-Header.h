@@ -9,5 +9,7 @@
 #ifndef ADBMobile_Bridging_Header_h
 #define ADBMobile_Bridging_Header_h
 
+#import "ADBMobile.h"
+
 
 #endif /* ADBMobile_Bridging_Header_h */
