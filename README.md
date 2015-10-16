@@ -9,7 +9,7 @@ Prerequisite Complete the two steps:
 
 1. Set up your App in Adobe Mobile Services
 2. Download the SDK and Testing Tools
-3. *OSX 10.11 El Capitan Users* If you are using [Adobe's Bloodhound for Mac(3.0Beta4)](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases/download/Bloodhound-v3.0Beta4-OSX/Bloodhound-3.0Beta4-OSX.dmg) app for local testing, change the server value to `"server": "localhost:5000"` instead of the ip address value to correct a bug that prevents ADBMobile from reporting to the Bloodhound server.
+3. *OSX 10.11 El Capitan Users* If you are using [Adobe's Bloodhound for Mac(3.0Beta4)](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases/download/Bloodhound-v3.0Beta4-OSX/Bloodhound-3.0Beta4-OSX.dmg) app for local testing, change the server value to `"server": "localhost:5000"` instead of the ip address value in the `ADBMobileConfig.josn` file to correct a bug that prevents ADBMobile from reporting to the Bloodhound server.
 
 Documentation located here: https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html
 
